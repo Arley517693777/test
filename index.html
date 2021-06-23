@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Arley's——书签导航">
+    <title>Arley's——书签导航</title>
+    <meta name="keywords" content="arley,导航,网址,书签导航"/>
+    <meta name="description" content="Arley's——书签导航">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="css/linecons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/xenon-core.css">
+    <link rel="stylesheet" href="css/xenon-components.css">
+    <link rel="stylesheet" href="css/xenon-skins.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body class="page-body">
+    <div id="bg" style="background-image: url(https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/bg.jpg)"></div>
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <div class="logo"><a href="/" class="logo-expanded"><img
+                                src="images/logo.png"
+                                width="100%" alt=""></a></div>
+                    <div class="mobile-menu-toggle visible-xs"><a href="#" data-toggle="user-info-menu"><i
+                                class="linecons-cog"></i></a><a href="#" data-toggle="mobile-menu"><i
+                                class="fa-bars"></i></a></div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <li><a href="#热搜新闻" class="smooth"><i class="linecons-heart"></i> <span class="title">热搜新闻</span></a></li>
+                    <li><a href="#常用站点" class="smooth"><i class="linecons-heart"></i> <span class="title">常用站点</span></a></li>
+                    <li><a><i class="linecons-thumbs-up"></i> <span class="title">实用工具</span></a>
+                        <ul>
+                            <li><a href="#在线工具" class="smooth"><span class="title">在线工具</span></a></li>
+                            <li><a href="#软件精选" class="smooth"><span class="title">软件精选</span></a></li>
+                            <li><a href="#网站精选" class="smooth"><span class="title">网站精选</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-desktop"></i> <span class="title">素材资源</span></a>
+                        <ul>
+                            <li><a href="#壁纸下载" class="smooth"><span class="title">壁纸下载</span></a></li>
+                            <li><a href="#PNG免扣" class="smooth"><span class="title">PNG免扣</span></a></li>
+                            <li><a href="#PPT下载" class="smooth"><span class="title">PPT下载</span></a></li>
+                            <li><a href="#其他资源" class="smooth"><span class="title">其他资源</span></a></li>
+                            <li><a href="#设计灵感" class="smooth"><span class="title">设计灵感</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-cloud"></i> <span class="title">开发生产</span></a>
+                        <ul>
+                            <li><a href="#云服务" class="smooth"><span class="title">云服务</span></a></li>
+                            <li><a href="#开发文档" class="smooth"><span class="title">开发文档</span></a></li>
+                            <li><a href="#模板资源" class="smooth"><span class="title">模板资源</span></a></li>
+                            <li><a href="#Github" class="smooth"><span class="title">Github</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-search"></i> <span class="title">学无止境</span></a>
+                        <ul>
+                            <li><a href="#自学编程" class="smooth"><span class="title">自学编程</span></a></li>
+                            <li><a href="#自学语言" class="smooth"><span class="title">自学语言</span></a></li>
+                            <li><a href="#自学精选" class="smooth"><span class="title">自学精选</span></a></li>
+                            <li><a href="#刷机资源" class="smooth"><span class="title">刷机资源</span></a></li>
+                            <li><a href="#学术文献" class="smooth"><span class="title">学术文献</span></a></li>
+                            <li><a href="#科学上网" class="smooth"><span class="title">科学上网</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-cloud"></i> <span class="title">系统相关</span></a>
+                        <ul>
+                            <li><a href="#系统下载" class="smooth"><span class="title">系统下载</span></a></li>
+                            <li><a href="#系统美化" class="smooth"><span class="title">系统美化</span></a></li>
+                            <li><a href="#其他资源" class="smooth"><span class="title">其他资源</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-cloud"></i> <span class="title">在线追剧</span></a>
+                        <ul>
+                            <li><a href="#4K优选" class="smooth"><span class="title">4K优选</span></a></li>
+                            <li><a href="#在线综合" class="smooth"><span class="title">在线综合</span></a></li>
+                            <li><a href="#在线美剧" class="smooth"><span class="title">在线美剧</span></a></li>
+                            <li><a href="#在线日韩" class="smooth"><span class="title">在线日韩</span></a></li>
+                            <li><a href="#在线动漫" class="smooth"><span class="title">在线动漫</span></a></li>
+                            <li><a href="#在线港台剧" class="smooth"><span class="title">在线港台剧</span></a></li>
+                            <li><a href="#在线解析" class="smooth"><span class="title">在线解析</span></a></li>
+                            <li><a href="#字幕库" class="smooth"><span class="title">字幕库</span></a></li>
+                            <li><a href="#客户端精选" class="smooth"><span class="title">客户端精选</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a><i class="linecons-search"></i> <span class="title">搜索引擎</span></a>
+                        <ul>
+                            <li><a href="#磁力搜索" class="smooth"><span class="title">磁力搜索</span></a></li>
+                            <li><a href="#影视搜索" class="smooth"><span class="title">影视搜索</span></a></li>
+                            <li><a href="#云盘搜索" class="smooth"><span class="title">云盘搜索</span></a></li>
+                            <li><a href="#小说搜索" class="smooth"><span class="title">小说搜索</span></a></li>
+                            <li><a href="#以图搜图" class="smooth"><span class="title">以图搜图</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#关于本站" class="smooth"><i class="linecons-heart"></i> <span class="title">关于本站</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+    <nav class="navbar user-info-navbar" role="navigation">
+        <ul class="user-info-menu left-links list-inline list-unstyled">
+            <li class="hidden-sm hidden-xs">
+                <a href="#" data-toggle="sidebar">
+                    <i class="fa-bars"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://arley.cn/" target="_blank" style="padding:30px 20px">
+                    <i class="fa fa-home"></i> 博客主页
+                </a>
+            </li>
+            <!-- 可添加banner -->
+        </ul>
+    </nav>
+    <!-- 内容卡片 -->
+    <h4 class="text-gray">
+        <i class="linecons-tag" style="margin-right:7px" id="热搜新闻"></i>热搜新闻
+    </h4>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://quark.sm.cn/s?q=%E7%83%AD%E6%90%9C&tab=quark","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="夸克热搜">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>夸克热搜</strong>
+                        </a>
+                        <p class="overflowClip_2">夸克热搜新闻手机版</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://tophub.today/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://tophub.today/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>今日热榜</strong>
+                        </a>
+                        <p class="overflowClip_2">今日热榜,Tophub,热门新闻,今日头条,热搜,热词,新闻聚合,摸鱼</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://www.53bk.com/baokan/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://www.53bk.com/baokan/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>多媒体数字报纸</strong>
+                        </a>
+                        <p class="overflowClip_2">国内报纸电子版大全,国内杂志电子版大全,在线看报系统,报刊杂志大全</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h4 class="text-gray">
+        <i class="linecons-tag" style="margin-right:7px" id="常用站点"></i>常用站点
+    </h4>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.aliyundrive.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.aliyundrive.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>阿里云盘</strong>
+                        </a>
+                        <p class="overflowClip_2">阿里云盘是一款速度快、不打扰、够安全、易于分享的个人网盘</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.teambition.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.teambition.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>Teambition</strong>
+                        </a>
+                        <p class="overflowClip_2">Teambition · 阿里巴巴工作学习套件，个人网盘</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.lanzou.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.lanzou.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>蓝奏云</strong>
+                        </a>
+                        <p class="overflowClip_2">蓝奏, 上传, 网盘, 网络硬盘, 云盘, 云存储, 网众蓝奏</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://pan.baidu.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://pan.baidu.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>百度网盘</strong>
+                        </a>
+                        <p class="overflowClip_2">百度网盘为您提供文件的网络备份、同步和分享服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://drive.google.com/drive/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://drive.google.com/drive/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>Google云盘</strong>
+                        </a>
+                        <p class="overflowClip_2">Google 云端硬盘、易于分享的个人网盘</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.jianguoyun.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.jianguoyun.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>坚果云</strong>
+                        </a>
+                        <p class="overflowClip_2">坚果云是一款提供网盘|云盘|云服务的团队协助软件,可随时随地实现共享文件夹。坚果云网盘支持移动办公,协同办公,文件同步,数据备份,智能管理,在线编辑等功能。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://github.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://github.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>GITHUB</strong>
+                        </a>
+                        <p class="overflowClip_2">GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.deepl.com/translator","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.deepl.com/translator">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>Deep翻译</strong>
+                        </a>
+                        <p class="overflowClip_2">快速、准确和安全的即时文本翻译和完整的文档翻译</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h4 class="text-gray">
+        <i class="linecons-tag" style="margin-right:7px" id="在线工具"></i>在线工具
+    </h4>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://www.uugai.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://www.uugai.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>U钙网</strong>
+                        </a>
+                        <p class="overflowClip_2">免费的LOGO在线设计制作工具</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.bitbug.net/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.bitbug.net/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>比特虫-ICO</strong>
+                        </a>
+                        <p class="overflowClip_2">在线制作ico图标ico图标转换工具</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://www.ico51.cn/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://www.ico51.cn/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>ICO图标制作</strong>
+                        </a>
+                        <p class="overflowClip_2">在线生成透明ICO图标</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://tinypng.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://tinypng.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>PNG压缩</strong>
+                        </a>
+                        <p class="overflowClip_2">Smart PNG and JPEG compression More than 1 billion PNG and JPEG images optimized and still counting!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://compressjpeg.com/zh/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://compressjpeg.com/zh/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>PNG压缩</strong>
+                        </a>
+                        <p class="overflowClip_2">png压缩中文版</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://waifu2x.udp.jp/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://waifu2x.udp.jp/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>在线图片放大</strong>
+                        </a>
+                        <p class="overflowClip_2">使用卷积神经网络对动漫风格的图片进行放大操作（支持照片）</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://bigjpg.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://bigjpg.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>AI人工智能图片放大</strong>
+                        </a>
+                        <p class="overflowClip_2">使用最新人工智能深度学习技术——深度卷积神经网络。它会将噪点和锯齿的部分进行补充，实现图片的无损放大</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.gaitubao.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.gaitubao.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>改图宝</strong>
+                        </a>
+                        <p class="overflowClip_2">在线修改照片大小,在线修改图片大小,在线修改照片尺寸</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.sojson.com/image/change.html","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.sojson.com/image/change.html">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>在线修改图片</strong>
+                        </a>
+                        <p class="overflowClip_2">图片大小修改器在线，在线修改图片大小，图片大小转换器，图片尺寸修改，图片大小修改器</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://docsmall.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://docsmall.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>DOCSMALL</strong>
+                        </a>
+                        <p class="overflowClip_2">docsmall - 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://koutu.gaoding.com/m","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://koutu.gaoding.com/m">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>在线替换图片背景</strong>
+                        </a>
+                        <p class="overflowClip_2">在线替换图片背景,稿定抠图</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.remove.bg/zh","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.remove.bg/zh">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>图片背景消除</strong>
+                        </a>
+                        <p class="overflowClip_2">图片背景消除，100% 全自动且免费</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://tiomg.org/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://tiomg.org/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>太美工具网</strong>
+                        </a>
+                        <p class="overflowClip_2">上班族常用的在线工具网站，免费在线软件工具包</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://ocrmaker.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://ocrmaker.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>OCRMaker</strong>
+                        </a>
+                        <p class="overflowClip_2">在线文字识别，OCR服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://web.baimiaoapp.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://web.baimiaoapp.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>白描</strong>
+                        </a>
+                        <p class="overflowClip_2">图片转文字在线 - 图片文字提取 - 网页OCR文字识别 - 白描网页版</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.webdesignrankings.com/resources/bse64/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.webdesignrankings.com/resources/bse64/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>BSE64</strong>
+                        </a>
+                        <p class="overflowClip_2"> | Base64 Image Convertor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.hipdf.cn/pdf-to-word","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.hipdf.cn/pdf-to-word">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>PDF转Word</strong>
+                        </a>
+                        <p class="overflowClip_2">免费将PDF转换为Word文档</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://app.xunjiepdf.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://app.xunjiepdf.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>迅捷PDF</strong>
+                        </a>
+                        <p class="overflowClip_2">在线版PDF转换器转换文件仅限于2M以内文件</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.alltoall.net/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.alltoall.net/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>格式转换</strong>
+                        </a>
+                        <p class="overflowClip_2">在线版PDF转换器转换，其他格式转换</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://easypdf.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://easypdf.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>PDF转其他格式</strong>
+                        </a>
+                        <p class="overflowClip_2">From PDF to Easy The Online PDF Converter Made for Everyone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://app.xunjiepdf.com/voice2text/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://app.xunjiepdf.com/voice2text/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>语音转文字</strong>
+                        </a>
+                        <p class="overflowClip_2">一键搞定语音识别成文字</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.aconvert.com/cn/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.aconvert.com/cn/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>格式转换</strong>
+                        </a>
+                        <p class="overflowClip_2">文档音频格式转换</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://convertio.co/zh/mp4-ogv/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://convertio.co/zh/mp4-ogv/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>Convertio</strong>
+                        </a>
+                        <p class="overflowClip_2">视频格式转换</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://convert-video-online.com/cn/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://convert-video-online.com/cn/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>视频格式转换</strong>
+                        </a>
+                        <p class="overflowClip_2">视频格式转换</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.sojson.com/image/change.html","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.sojson.com/image/change.html">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>在线修改图片</strong>
+                        </a>
+                        <p class="overflowClip_2">图片大小修改器在线，在线修改图片大小，图片大小转换器，图片尺寸修改，图片大小修改器</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://docsmall.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://docsmall.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>DOCSMALL</strong>
+                        </a>
+                        <p class="overflowClip_2">docsmall - 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://koutu.gaoding.com/m","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://koutu.gaoding.com/m">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>在线替换图片背景</strong>
+                        </a>
+                        <p class="overflowClip_2">在线替换图片背景,稿定抠图</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.remove.bg/zh","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.remove.bg/zh">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>图片背景消除</strong>
+                        </a>
+                        <p class="overflowClip_2">图片背景消除，100% 全自动且免费</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://tiomg.org/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://tiomg.org/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>太美工具网</strong>
+                        </a>
+                        <p class="overflowClip_2">上班族常用的在线工具网站，免费在线软件工具包</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("http://ocrmaker.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="http://ocrmaker.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>OCRMaker</strong>
+                        </a>
+                        <p class="overflowClip_2">在线文字识别，OCR服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://web.baimiaoapp.com/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://web.baimiaoapp.com/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>白描</strong>
+                        </a>
+                        <p class="overflowClip_2">图片转文字在线 - 图片文字提取 - 网页OCR文字识别 - 白描网页版</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="xe-widget xe-conversations box2 label-info"
+                onclick='window.open("https://www.webdesignrankings.com/resources/bse64/","_blank")' data-toggle="tooltip"
+                data-placement="bottom" data-original-title="https://www.webdesignrankings.com/resources/bse64/">
+                <div class="xe-comment-entry">
+                    <div class="xe-comment">
+                        <a href="#"
+                            class="xe-user-name overflowClip_1">
+                            <strong>BSE64</strong>
+                        </a>
+                        <p class="overflowClip_2"> | Base64 Image Convertor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="main-footer sticky footer-type-1">
+        <div class="footer-inner">
+            <div class="footer-text">COPYRIGHT<i class="far fa-copyright"></i> 2021 <a
+                    href="https://arley.cn/"
+                    target="_blank">
+                    <strong>ARLEY</strong>
+                </a> 丨 POWERED BY <a href="https://github.com/WebStackPage/WebStackPage.github.io"
+                target="_blank">
+                    <strong>WebStack</strong>
+                </a>
+            </div>
+            <div class="go-up">
+                <a href="#" rel="go-top">
+                    <i class="fa-angle-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script>
+    $(document).ready(function () {
+                return $(document).on("click", ".has-sub", function () {
+                    var e = $(this);
+                    $(this).hasClass("expanded") ? $(".has-sub ul").each(function (s, i) {
+                        var t = $(this);
+                        e.find("ul")[0] != i && setTimeout(function () {
+                            t.attr("style", "")
+                        }, 300)
+                    }) : setTimeout(function () {
+                        e.find("ul").attr("style", "")
+                    }, 300)
+                }), $(".user-info-menu .hidden-sm").click(function () {
+                    $(".sidebar-menu").hasClass("collapsed") ? $(".has-sub.expanded > ul").attr("style",
+                        "") : $(".has-sub.expanded > ul").show()
+                }), $("#main-menu li ul li").click(function () {
+                    $(this).siblings("li").removeClass("active"), $(this).addClass("active")
+                }), $("a.smooth").click(function (s) {
+                    s.preventDefault(), public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass(
+                        "mobile-is-visible"), ps_destroy(), $("html, body").animate({
+                        scrollTop: $($(this).attr("href")).offset().top - 30
+                    }, {
+                        duration: 500,
+                        easing: "swing"
+                    })
+                }), !1
+            });
+            var href = "",
+                pos = 0;
+            $("a.smooth").click(function (s) {
+                $("#main-menu li").each(function () {
+                        $(this).removeClass("active")
+                    }), $(this).parent("li").addClass("active"), s.preventDefault(), href = $(this).attr("href"),
+                    pos = $(href).position().top - 30
+            })
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/resizeable.js"></script>
+    <script src="js/joinable.js"></script>
+    <script src="js/xenon-api.js"></script>
+    <script src="js/xenon-toggles.js"></script>
+    <script src="js/xenon-custom.js"></script>
+</body>
+</html>
