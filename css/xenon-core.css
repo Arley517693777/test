@@ -2454,7 +2454,7 @@ footer.main-footer .go-up {
 footer.main-footer .go-up a {
   display: inline-block;
   background-color: rgba(44, 46, 47, 0.05);
-  padding: 2px 5px;
+  padding: 0px 5px;
 }
 footer.main-footer .go-up a:hover {
   background-color: rgba(44, 46, 47, 0.1);
