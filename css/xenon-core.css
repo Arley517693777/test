@@ -937,7 +937,7 @@ body {
   display: table-cell;
   position: relative;
   width: 280px;
-  background: #2c2e2fd4;
+  background: #d0e6f738;
   z-index: 1;
 }
 .sidebar-menu .logo-env {
@@ -980,7 +980,7 @@ body {
   }
 }
 .sidebar-menu .main-menu a {
-  color: #979898;
+  color: #5a5a5a;
   text-decoration: none;
   display: block;
   padding: 13px 5px;
