@@ -34,6 +34,15 @@ summary {
     opacity: 0.95;
     z-index: -1;
 }
+.search_btn {
+    outline: 0;
+    border: none;
+    background: #f3f6f81a none;
+    color: rgba(0,0,0,.6);
+    padding: 5px 10px 5px 10px;
+    height: 30px;
+    border-radius: 30px;
+}
 a.logo-expanded {
     color: #666;
     font-size: 16px;
