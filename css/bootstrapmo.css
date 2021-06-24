@@ -34,6 +34,10 @@ summary {
     opacity: 0.7;
     z-index: -1;
 }
+a.logo-expanded {
+    color: #d2136b;
+    font-size: 16px;
+}
 audio,
 canvas,
 progress,
