@@ -33,7 +33,6 @@ var css1 = `/*
  * 我就用代码来介绍吧
  * 首先准备一些样式
  */
-
 *{
   transition: all 1s;
 }
@@ -54,16 +53,13 @@ html{
   border: 1px solid #fff0;
   padding: 16px;
 }
-
 /* 我需要一点代码高亮 */
 .token.selector{ color: #690; }
 .token.property{ color: #905; }
-
 /* 加一个呼吸效果 */
 #code{
   animation: breath 0.5s infinite alternate-reverse;
 }
-
 /* 现在正式开始 */
 /* 我需要一张白纸 */
 #code-wrapper{
@@ -73,7 +69,6 @@ html{
 #paper > .content {
  display: block;
 }
-
 /* 于是我就可以在白纸上写字了，请看右边 */
 `
 var css2 = `
@@ -88,19 +83,11 @@ var md = `
 
 ### **🏠 关于本站**
 
-这里是我的个人博客，是一个学习实用类小站，记录所得，分享所获.
-
-### 👨‍ **博主是谁**
-
-Arley,技术宅大叔
-
-###  ☎ **联系我呀**
-
-Telegram:https://t.me/Arley_cn<br>邮箱 ：arley@arley.cn
+这里是我的个人书签导航，集成了好多Tools.
 
 ### ❈ **关于版权**
 
-本站除注明原创外，其他内容均来源于网络收集，如有侵权，请告知站长，将第一时间删除侵权内容！
+源代码POWERED BY [WebStackPage](https://github.com/WebStackPage/WebStackPage.github.io)
 `
 let css3 = `
 /*
