@@ -1319,7 +1319,7 @@ body {
   }
   .sidebar-menu.collapsed .main-menu > li > ul {
     position: absolute;
-    background: #2c2e2f;
+    background: #ecececeb;
     width: 250px;
     top: 0;
     left: 100%;
