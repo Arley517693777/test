@@ -81,7 +81,7 @@ var md = `
 
 欢迎来到我的小站呀，很高兴遇见你！ヾ(≧O≦)〃嗷~
 
-我的博客主页[Arley's Blog](https://https://arley.cn/)
+我的博客主页[Arley's Blog](https://arley.cn/)
 
 ### **🏠 关于本站**
 
