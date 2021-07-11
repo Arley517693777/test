@@ -980,7 +980,7 @@ body {
   }
 }
 .sidebar-menu .main-menu a {
-  color: #5a5a5a;
+  color: #484747;
   text-decoration: none;
   display: block;
   padding: 13px 5px;
@@ -1319,11 +1319,12 @@ body {
   }
   .sidebar-menu.collapsed .main-menu > li > ul {
     position: absolute;
-    background: #ecececeb;
+    background: #fefffbcf;
     width: 250px;
     top: 0;
     left: 100%;
     text-align: left;
+    border-radius: 5%;
   }
   .page-body.right-sidebar .sidebar-menu.collapsed .main-menu > li > ul {
     left: auto;
@@ -2540,7 +2541,7 @@ body.chat-open .user-info-navbar a[data-toggle="chat"] {
   position: relative;
   display: block;
   padding: 30px 20px;
-  color: #6b6b6b;
+  color: #484747;
   border-bottom: 1px solid #fff0;
   top: 1px;
   z-index: 5;
