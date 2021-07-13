@@ -1296,7 +1296,7 @@ body {
   }
   .sidebar-menu.collapsed .main-menu > li.active,
   .sidebar-menu.collapsed .main-menu > li li.active {
-    background-color: #252627;
+    background-color: #ffffff00;
   }
   .sidebar-menu.collapsed .main-menu > li > a > i {
     margin-right: 0;
@@ -1319,12 +1319,13 @@ body {
   }
   .sidebar-menu.collapsed .main-menu > li > ul {
     position: absolute;
-    background: #fefffbcf;
+    background: #fefffb47;
     width: 250px;
     top: 0;
     left: 100%;
     text-align: left;
     border-radius: 5%;
+    backdrop-filter: blur(5px);
   }
   .page-body.right-sidebar .sidebar-menu.collapsed .main-menu > li > ul {
     left: auto;
