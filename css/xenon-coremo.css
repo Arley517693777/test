@@ -939,6 +939,7 @@ body {
   width: 280px;
   background: #ffffff40;
   z-index: 1;
+  backdrop-filter: blur(3px);
 }
 .sidebar-menu .logo-env {
   padding: 19px 45px;
@@ -2486,12 +2487,13 @@ body.chat-open .user-info-navbar a[data-toggle="chat"] {
   color: #606161;
 }
 .user-info-navbar {
-  background-color: #fff0;
+  background-color: #ffffff38;
   min-height: 0;
   border: 0;
   padding: 0;
   margin: -30px;
   margin-bottom: 30px;
+  backdrop-filter: blur(3px);
 }
 .user-info-navbar .user-info-menu {
   margin: 0;
