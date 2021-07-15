@@ -5990,6 +5990,7 @@ button.toast-close-button {
   background: #ffffff40;
   margin-bottom: 0px;
   padding: 15px;
+  backdrop-filter: blur(3px);
 }
 .xe-widget.xe-conversations .xe-bg-icon {
   position: absolute;
