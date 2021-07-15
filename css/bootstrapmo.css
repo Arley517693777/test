@@ -37,11 +37,12 @@ summary {
 .search_btn {
     outline: 0;
     border: none;
-    background: #f3f6f81a none;
+    background: #ffffff38 none
     color: rgba(0,0,0,.6);
     padding: 5px 10px 5px 10px;
     height: 30px;
     border-radius: 30px;
+    backdrop-filter: blur(3px);
 }
 a.logo-expanded {
     color: #d2136b;
