@@ -12,17 +12,17 @@
         var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
         if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
             console.log(" %c Bookmarks By Arley %c https://arley.cn/ ", "color: #d2136b; background: #c7c4ea; border-radius: 5px; padding:5px;", "padding:5px;"),
-            document.write('<link rel="stylesheet" href="css/bootstrapmo.css">');
-            document.write('<link rel="stylesheet" href="css/xenon-coremo.css">');
-            document.write('<link rel="stylesheet" href="css/xenon-componentsmo.css">');
-            document.write('<div id="bg" style="background-image: url(images/bgmobile.jpg)"></div>');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/bootstrapmo.css">');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/xenon-coremo.css">');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/xenon-componentsmo.css">');
+            document.write('<div id="bg" style="background-image: url(https://cdn.jsdelivr.net/gh/Arley517693777/navigation/images/bgmobile.jpg)"></div>');
             return 'phone';
         } else {
             console.log(" %c Bookmarks By Arley %c https://arley.cn/ ", "color: #ffffff; background: #6ea9e5;  border-radius: 5px; padding:5px;", "padding:5px;"),
-            document.write('<link rel="stylesheet" href="css/bootstrap.css">');
-            document.write('<link rel="stylesheet" href="css/xenon-core.css">');
-            document.write('<link rel="stylesheet" href="css/xenon-components.css">');
-            document.write('<div id="bg" style="background-image: url(images/bg.jpg)"></div>');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/bootstrap.css">');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/xenon-core.css">');
+            document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/navigation/css/xenon-components.css">');
+            document.write('<div id="bg" style="background-image: url(https://cdn.jsdelivr.net/gh/Arley517693777/navigation/images/bg.jpg)"></div>');
             return 'pc';
             }
         }
